@@ -90,8 +90,7 @@ local function InitializeFramework()
             PlayerLoaded = true
             TriggerEvent('lation_247robbery:onPlayerLoaded')
         end)
-    else
-        if GetResourceState('ND_Core') == 'started' then
+    elseif GetResourceState('ND_Core') == 'started' then
         NDCore = exports["ND_Core"]
         Framework = 'nd'
 
