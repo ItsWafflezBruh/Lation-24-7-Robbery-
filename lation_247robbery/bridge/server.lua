@@ -177,7 +177,7 @@ local function ConvertMoneyType(type)
     elseif type == 'cash' and (Framework == 'esx' or Framework == 'ox') then
         type = 'money'
     elseif type == 'money' and (Framework == 'nd') then
-        type == 'cash'
+        type = 'cash'
     end
     return type
 end
