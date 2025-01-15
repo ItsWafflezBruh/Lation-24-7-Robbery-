@@ -93,13 +93,15 @@ local function InitializeFramework()
     elseif GetResourceState('ND_Core') == 'started' then
         NDCore = exports["ND_Core"]
         Framework = 'nd'
-
+        
+        RegisterNetEvent("ND:characterLoaded")
         AddEventHandler("ND:characterLoaded", function(character)
             PlayerData = exports["ND_Core"]:getPlayer()
             PlayerLoaded = true
             TriggerEvent('lation_247robbery:onPlayerLoaded')
         end)
 
+        RegisterNetEvent("ND:characterUnloaded")
         AddEventHandler("ND:characterUnloaded", function(character)
             table.wipe(PlayerData)
             PlayerLoaded = false
