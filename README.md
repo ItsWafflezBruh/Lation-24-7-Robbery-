@@ -1,4 +1,6 @@
-# Lation-24-7-Robbery-
+# No Future Updates
+I will no longer update this script, so use it as you wish
+
 Lation's 24/7 robbery with ND-Core integration added
 
 Original credit for the script goes to [https://github.com/IamLation/lation_247robbery]
