@@ -3,6 +3,8 @@ I will no longer update this script, so use it as you wish
 
 Lation's 24/7 robbery with ND-Core integration added
 
+Installation Video [https://youtu.be/xg7xXyeDt8o]
+
 Original credit for the script goes to [https://github.com/IamLation/lation_247robbery]
 
 I have added integration for ND_Core, except for the MDT (Looking into it)
